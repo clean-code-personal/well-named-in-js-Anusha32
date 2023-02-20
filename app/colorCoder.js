@@ -17,8 +17,8 @@ ColorPair.prototype.toString=function(){
 
 function getColorFromPairNumber(pairNumber)
 {
-	let minorSize = MajorColorNames.length;
-	let majorSize = MinorColorNames.length;
+	let minorSize = MinorColorNames.length;
+	let majorSize = MajorColorNames.length;
 	
 	if (pairNumber < 1 || pairNumber > minorSize * majorSize)
  	{
