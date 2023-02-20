@@ -1,8 +1,8 @@
 import { MajorColorNames, MinorColorNames } from "./colorNames.js";
 import {ColorPair} from "./colorPair.js";
 import {getColorFromPairNumber, getPairNumberFromColor} from "./getColor.js";
+import { printMannual } from "./printMannual.js";
 
-	 
 function test(){
 			let pairNumber = 4;
             let testPair1 = getColorFromPairNumber(pairNumber);
@@ -37,3 +37,4 @@ function test(){
 			console.assert(pairNumber==6);
 }
 test();
+printMannual();
