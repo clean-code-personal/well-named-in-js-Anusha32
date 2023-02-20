@@ -1,12 +1,5 @@
 import { MajorColorNames, MinorColorNames } from "./colorNames.js";
-function ColorPair(){
-           this.majorColor;
-           this.minorColor;
-}
-
-ColorPair.prototype.toString=function(){
-	return `MajorColor:${this.majorColor},MinorColr:${this.minorColor}`;
-}
+import { ColorPair } from "./colorPair.js";
 
 function getColorFromPairNumber(pairNumber)
 {
