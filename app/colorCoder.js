@@ -1,3 +1,4 @@
+import { MajorColorNames, MinorColorNames } from "./colorNames.js";
 function ColorPair(){
            this.majorColor;
            this.minorColor;
@@ -56,7 +57,7 @@ function getPairNumberFromColor(pair)
 	 }
 	 
 	 function test(){
-			pairNumber = 4;
+			let pairNumber = 4;
             let testPair1 = getColorFromPairNumber(pairNumber);
             console.log(`[In]Pair Number: ${pairNumber},[Out] Colors:${testPair1}`);
 			console.assert(testPair1.majorColor == "WHITE");

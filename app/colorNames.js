@@ -4,3 +4,4 @@ const MajorColorNames = [
 const MinorColorNames = [
 	"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"
 ];
+export {MajorColorNames, MinorColorNames}
