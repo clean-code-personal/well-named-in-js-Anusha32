@@ -9,7 +9,7 @@ function printMannual(){
 
     for (let i = 1; i <= 25; i++) {
         const pair = getColorFromPairNumber(i);
-        console.log( '${i} | ${pair}');
+        console.log( `${i} | ${pair}`);
     }
 }
 
